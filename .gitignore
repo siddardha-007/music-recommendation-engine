@@ -1,0 +1,86 @@
+# ==========================================
+# 1. Data & Datasets
+# ==========================================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.sqlite
+*.db
+*.tfrecord
+*.zip
+*.tar.gz
+
+# ==========================================
+# 2. Trained Models & Checkpoints
+# ==========================================
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.pkl
+*.pickle
+*.joblib
+*.bin
+
+# ==========================================
+# 3. ML Experiment Tracking & Logs
+# ==========================================
+logs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+runs/
+*.log
+*.tfevents*
+
+# ==========================================
+# 4. Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# 5. Python Cache & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# 6. Secrets & Environment Variables
+# ==========================================
+.env
+.env.*
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# ==========================================
+# 7. IDEs & Operating System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
